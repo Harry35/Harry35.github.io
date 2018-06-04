@@ -21,7 +21,7 @@ BODY
 body{
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #363636;
   background: #ededed;
 }
@@ -30,7 +30,7 @@ CONTAINER
 *******************************************/
 .container{
   margin-top: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 80px;
   background: #fff;
 }
 /*******************************************
@@ -65,7 +65,7 @@ PHOTO (AVATAR)
   font-size: 1.5em;
   letter-spacing: -4px;
   font-weight: 800;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 #text-header h1 span{
   color: #F0563D;
@@ -98,8 +98,8 @@ DEFAULT BOX
   margin-right: 5px;
 }
 .box p{
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.8em;
 }
 /*******************************************
 EDUCATION
@@ -193,8 +193,8 @@ EXPERIENCES
   font-weight: bold;
 }
 .job .description{
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.8em;
 }
 /*******************************************
 CONTACT
