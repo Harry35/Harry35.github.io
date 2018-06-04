@@ -1,1 +1,171 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3ColorResume</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div id="text-header">
+              <h1>您好， <br> 我叫<span>张旭</span> <sup>28岁</sup>，有4年工作经验， 寻求web开发的职位，谢谢。</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>教育背景</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2014 － 2011</div>
+                <div class="description pull-right">
+                  <h3>移动技术与嵌入式系统专业 － 硕士</h3>
+                  <p>特鲁瓦工程技术大学 (Université de Technologie de Troyes)， 法国</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2011 － 2008</div>
+                <div class="description pull-right">
+                  <h3>信息工程专业 － 学士</h3>
+                  <p>上海大学， 上海</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <div class="box">
+            <h2>工作经历</h2>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Carenity</div>
+                <div class="year">2015.03 - 2018.05</div>
+                <div class="year">巴黎，法国</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">PHP中级开发工程师</div>
+                <div class="description"> 
+                  Carenity是一个慢性病病友健康社交网络。业务分布法国、英国、德国、西班牙、意大利、美国六国。
+                  <h5>项目经历</h5>
+                  1. 问卷调查系统开发｜项目负责人｜2017.11－2018.05
+                  <br/>问卷调查系统是公司主要业务之一，工作人员在后台编辑问卷，根据目标发放问卷给用户。本项目是针对问卷调查系统的迭代开发。对系统进行重新开发，前后端分离。
+                  <ul>
+                    <li>对于项目的需求进行分析和评估，任务的拆分以及核心编码。</li>
+                    <li>后端使用PHP开发RESTful web service接口。</li>
+                    <li>采用Vue.js进行项目前端开发，发挥其模块化，复用的优点，简化开发流程，保证项目质量。</li>
+                    <li>对移动端进行适配，提高用户体验。</li>
+                  </ul>
+
+                  2. 站内搜索引擎开发｜项目负责人｜2017.06－2017.09
+                  <br/>由于网站内容的增加，业务的扩大，最初通过MySQL的全文搜索功能无法满足需求。后决定使用Elasticsearch开发站内搜索引擎，实现对于网站中不同内容（如：帖子，用户，问卷，食谱，文章等）的搜索。
+                  <ul>
+                    <li>对于项目需求进行分析，设计Elasticsearch的数据类型（type）。</li>
+                    <li>与UI，UE优化网站搜索栏，搜索结果界面，以求提供更好的用户体验。</li>
+                    <li>根据不同语言（法，英，德，意，西）的特性，优化分词器（analyzer），优化搜索效果。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Frontloop-Factory</div>
+                <div class="year">2014.03 – 2015.02</div>
+                <div class="year">巴黎，法国</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">PHP开发工程师</div>
+                Frontloop-Factory是一家提供通信解决方案，语音服务（如：网络IP电话，网络会议）的公司
+                <h5>项目经历</h5>
+                1. 在线咨询网站开发｜主力开发｜2017.11－2018.05
+                  <br/>参与开发在线咨询网站，网站上用户可以与律师，教练，医生等进行在线语音咨询。
+                  <ul>
+                    <li>负责项目中部分基础模块，业务模块以及页面的开发。</li>
+                    <li>使用基于RESTful web service接口与后台进行通讯，并实现部分新接口。</li>
+                    <li>在网站中接入第三方支付平台。</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>自我介绍</h2>
+            <p>本人在法国留学，之后在巴黎作为网站开发工程师工作，如今决定归国发展。7年的留法经历使我生活和精神上更加独立，学会多角度思考问题，养成锻炼的习惯和享受生活的心态。我希望这些收获能运用到今后的工作上，我愿意与接受我的公司企业共同奋斗，共创辉煌。</p>
+          </div>
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>联系方式</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+33 6 58 77 14 75</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">xuzhang1011@gmail.com</div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2>专业技能</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="0.75">PHP</div>
+              <div class="item-skills" data-percent="0.75">CodeIgniter (框架)</div>
+              <div class="item-skills" data-percent="0.65">Slim (框架)</div>
+              <div class="item-skills" data-percent="0.50">Laravel (框架)</div>
+              <div class="item-skills" data-percent="0.70">HTML＋CSS＋Javascript</div>
+              <div class="item-skills" data-percent="0.70">jQuery</div>
+              <div class="item-skills" data-percent="0.60">Vue.js</div>
+              <div class="item-skills" data-percent="0.25">Webpack</div>
+              <div class="item-skills" data-percent="0.50">Elasticsearch</div>
+              <div class="item-skills" data-percent="0.70">Git</div>
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">了解</div>
+                <div class="legend-left legend"><span>熟悉</span></div>
+                <div class="legend-right legend"><span>掌握</span></div>
+                <div class="legend-right legend">精通</div>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2>外语水平</h2>
+            <div id="language-skills">
+              <div class="skill">法语 : 流利 (留法7年 / TEF B2) <div class="icons pull-right"><div style="width: 80%;" class="icons-red"></div></div></div>
+              <div class="skill">英语 : 流利 (CET-6 / BULATS C1) <div class="icons pull-right"><div style="width: 60%;" class="icons-red"></div></div></div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>兴趣爱好</h2>
+            <div class="hobby">跑步 (一周3次)</div>
+            <div class="hobby">网球</div>
+            <div class="hobby">游泳</div>
+            <div class="hobby">摄影</div>
+            <div class="hobby">旅游</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
