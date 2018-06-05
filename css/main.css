@@ -31,6 +31,7 @@ CONTAINER
 .container{
   margin-top: 80px;
   margin-bottom: 80px;
+  padding-bottom: 20px;
   background: #fff;
 }
 /*******************************************
@@ -170,9 +171,17 @@ EDUCATION
   font-weight: 700;
 }
 #education .description p{
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 5px;
   padding: 0;
+}
+#education .place{
+  float: right;
+}
+#education .date{
+  float: right;
+  font-size: 13px;
+  font-weight: 100;
 }
 /*******************************************
 EXPERIENCES
@@ -193,8 +202,19 @@ EXPERIENCES
   font-weight: bold;
 }
 .job .description{
-  font-size: 1.4em;
-  line-height: 1.8em;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.job .col-left {
+  text-align: center;
+}
+.job .description .date{
+  float: right;
+}
+.job .description .title{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
 }
 /*******************************************
 CONTACT
@@ -333,6 +353,11 @@ HOBBIES
 /*******************************************
 MEDIA
 *******************************************/
+@media (min-width: 1200px) {
+  .container {
+      width: 1100px;
+  }
+}
 @media (min-width: 500px) {
   #education .description{
     width: 85%;
